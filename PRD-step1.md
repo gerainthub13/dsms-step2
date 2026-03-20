@@ -1,13 +1,4 @@
-# PRD v3
-
-<aside>
-🔑
-
-主要内容由Gemini牵头进行规划（对比了ChatGPT，发现Gemini的工程思维更好一些）。经过Grok、Perplexity、ChatGPT三位的共同意见，最终以perplexity版本为主，综合其他选手的输出，迭代生成v0.3版本PRD。
-
-人工完善和更新
-
-</aside>
+# PRD v3 
 
 ## 一、整体项目规划与功能设计
 
