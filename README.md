@@ -1,6 +1,6 @@
-﻿# DSMS（Data Standard Management System）MVP API
+﻿# DSMS（Data Standard Management System）
 
-本项目基于 `FastAPI + SQLAlchemy(Async) + PostgreSQL/pgvector`，实现 `PRD.md` 定义的数据标准管理后端能力。
+本项目基于 `FastAPI + SQLAlchemy(Async) + PostgreSQL/pgvector`，实现数据标准管理能力。
 
 ## 当前能力
 
@@ -75,13 +75,6 @@ http://127.0.0.1:8000/ui-readonly/
 - demo 数据脚本：`scripts/seed_demo_standards.py`（HR/EHS/财务资金各10条）
 - 批量执行入口：`scripts/run_api_tests.py`
 
-执行示例：
-
-```bash
-API_BASE_URL=http://127.0.0.1:8000 uv run python scripts/api_validation_test.py
-API_BASE_URL=http://127.0.0.1:8000 SKIP_VECTOR=true uv run python scripts/api_workflow_test.py
-API_BASE_URL=http://127.0.0.1:8000 SKIP_VECTOR=true uv run python scripts/run_api_tests.py
-```
 
 ## MCP Server
 
